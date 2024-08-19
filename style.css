@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Assistant,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    box-shadow: 0 0 6px 0 black;
+
+}
+
+.myntra-home {
+    height:45px;
+}
+
+.logo {
+    margin-left: 4%;
+}
+
+.action-bar {
+    margin-right: 4%;
+}
+
+.navbar {
+    display: flex;
+    min-width: 450px;
+    justify-content: center;
+    gap: 2rem;
+}
+
+li,a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+
+.navbar a sup {
+    color: #ff3f6c;
+    font-size: 10px;
+    
+}
+
+.search-bar {
+    min-width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 0 2rem;
+
+}
+
+.ri-search-line {
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #f5f5f6;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-input{
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.action-bar {
+    display: flex;
+    justify-content: center;
+
+}
+
+.action-bar-icons {
+    display: flex;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* Banner Section */
+
+.banner-container {
+    /* margin: 40px 0; */
+}
+
+.banner-img {
+    width: 100%;
+
+}
+
+.category-heading {
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sale-item {
+    width: 250px;
+
+}
+
+.footer-container {
+    padding: 30px 0 40px 0;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer-column a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
+}
